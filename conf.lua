@@ -6,10 +6,10 @@ function love.conf(t) -- t is a variable that holds the table of all the configu
     t.gameversion = "1.0.0" -- The version of the game (string)
 
     -- device settings
-    t.externalstorage = true -- True to save files (and read from the save directory) in external storage on Android (boolean)
-    t.gammacorrect = true -- Enable gamma-correct rendering, when supported by the system (boolean)
+    t.externalstorage = false -- True to save files (and read from the save directory) in external storage on Android (boolean)
+    t.gammacorrect = false -- Enable gamma-correct rendering, when supported by the system (boolean)
     t.console = true
-    t.audio.mic = true -- Request and use microphone capabilities in Android (boolean)
+    t.audio.mic = false -- Request and use microphone capabilities in Android (boolean)
     
     -- window settings
     t.window.width = 800
